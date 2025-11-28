@@ -1,0 +1,17 @@
+├─ src/                    # Tous les scripts Python
+│   ├─ load_data.py        # Charger et prétraiter le dataset
+│   ├─ model_cnn.py        # Créer et entraîner le CNN
+│   ├─ train.py         # Tester et évaluer le modèle
+│   └─ realtime_test.py    # Détection en temps réel via webcam
+
+Résumé simple de load_data
+
+1-Charge les CSV
+2-Sépare images et labels
+3-Reformate les images en 28×28
+4-Normalise
+5-Calcule automatiquement combien de classes il y a
+6-Transforme les labels en one-hot vectors
+7-Retourne le tout(train.py utilise ces données) 
+
+
