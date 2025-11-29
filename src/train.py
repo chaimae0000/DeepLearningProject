@@ -17,4 +17,4 @@ loss, acc = model.evaluate(X_test, y_test)
 print(f"Test Accuracy: {acc*100:.2f}%")
 
 # Sauvegarder le modèle
-model.save("../hand_gesture_cnn.h5")
+model.save("hand_gesture_cnn.h5")

@@ -1,17 +1,15 @@
-Créer et activer l’environnement virtuel
+#Créer et activer l’environnement virtuel
 python -m venv handgestures_env
 
 # Windows
 handgestures_env\Scripts\activate
-
-# Linux / Mac
-source handgestures_env/bin/activate
 
 #Installer les librairies
 pip install tensorflow pandas numpy matplotlib scikit-learn opencv-python
 pip install opencv-python-headless  
 pip install opencv-python   
 pip install jupyter notebook   
+pip install cvzone
 
 pip show tensorflow   
 pip show opencv-python   
